@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54921ab2-ea6e-4c18-9d2a-328f5afd56f6" name="Changes" comment="" />
+    <list default="true" id="54921ab2-ea6e-4c18-9d2a-328f5afd56f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackathon-team-project/Reports/Hackathon WAVE Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-team-project/Reports/Hackathon WAVE Report.docx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +41,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hackathon-team-project/Reports" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736941562285</updated>
       <workItem from="1736941563413" duration="2234000" />
-      <workItem from="1736944380579" duration="604000" />
+      <workItem from="1736944380579" duration="4023000" />
     </task>
     <servers />
   </component>

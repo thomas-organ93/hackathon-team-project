@@ -31,15 +31,16 @@
 </head>
 
 <body>
-    <section id="banner" class="">
+    <main>  
+    <header id="banner" class="">
         <div class="section-container position-relative d-flex flex-column align-items-center justify-content-center">
             <!-- Text Overlay (Card) -->
             <div class="container position-relative text-white">
                 <div class="logo-container text-center">
-                    <img src="assets/img/nfh-logo.png" alt="Logo" class="img-fluid logo-image">
+                    <img src="assets/img/nfh-logo.png" alt="Logo-National-Furniture-House" class="img-fluid logo-image">
                 </div>
-                <h1 class=" text-center display-4 fw-bold text-white mb-4" style="">National Furniture House</h1>
-
+                <h1 class=" text-center display-4 fw-bold text-black mb-4" style="">National Furniture House</h1>
+    
                 <div class="card overlay-card mx-auto mb-5">
                     <div class="card-body mb-5 mb-md-0">
                         <p><strong>National Furniture House</strong> is a legacy of craftsmanship and quality that has
@@ -64,7 +65,7 @@
             </div>
 
         </div>
-    </section>
+    </header>
     <!-- Chairs Image (Z-index) -->
     <section class="chair-overlap ">
             <div class="position-relative">
@@ -74,11 +75,10 @@
             </div>
             <!-- Bottom Text  -->
             <div class="position-absolute bottom-text pt-md-3 pt-lg-2 " style="">
-                <h5 class="text-center">Crafting &nbsp;<br class="d-none d-md-block">Timeless Comfort<br
-                        class="d-none d-md-block">since 1951</h5>
+                <h4 class="text-center">Crafting &nbsp;<br class="d-none d-md-block">Timeless Comfort<br
+                        class="d-none d-md-block">since 1951</h4>
             </div>
     </section>
-
     <section id="collection">
         <hr>
         <div class="container "> 
@@ -90,7 +90,7 @@
                             <picture class="border">
                                 <source srcset="assets/img/can-furniture.webp" type="img/webp">
                                 <source srcset="assets/img/can-furniture.png" type="img/png">
-                                <img src="assets/img/can-furniture.png" class="card-img-top">
+                                <img src="assets/img/can-furniture.png" class="card-img-top" alt="Cane furniture">
                             </picture>
                             <div class="card-body text-center border">
                                 <h4 class="card-title">Cane Furniture</h4>
@@ -104,7 +104,7 @@
                             <picture class="border">
                                 <source srcset="assets/img/cabinet.webp" type="img/webp">
                                 <source srcset="assets/img/cabinet.png" type="img/png">
-                                <img src="assets/img/cabinet.png" class="card-img-top">
+                                <img src="assets/img/cabinet.png" class="card-img-top" alt="Cabinets">
                             </picture>
                             <div class="card-body text-center border">
                                 <h4 class="card-title">Cabinets</h4>
@@ -118,7 +118,7 @@
                             <picture class="border">
                                 <source srcset="assets/img/outdoor.webp" type="img/webp">
                                 <source srcset="assets/img/outdoor.png" type="img/png">
-                                <img src="assets/img/outdoor.png" class="card-img-top">
+                                <img src="assets/img/outdoor.png" class="card-img-top" alt="Outdoor furniture">
                             </picture>
                             <div class="card-body text-center border">
                                 <h4 class="card-title">Outdoor Furniture</h4>
@@ -147,12 +147,14 @@
                                 <div class="row">
                                     <div class="fieldsets col-sm-12">
                                         <input type="text" id="name" name="name" placeholder="Enter Name"
-                                            class="form-control" required>
+                                            class="form-control" required >
+                                            <label for="enter name">Enter your name</label>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="fieldsets col-sm-12">
                                         <input type="email" id="email" name="email" placeholder="Enter Email"
                                             class="form-control" required>
+                                            <label for="enter name">Enter your email</label>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -160,6 +162,7 @@
                                     <div class="fieldsets col-sm-12">
                                         <input type="number" id="mobile" name="mobile" placeholder="Enter Mobile"
                                             class="form-control" required>
+                                            <label for="enter name">Enter your mobile no.</label>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -183,23 +186,24 @@
                         <p class=" text-justify" >My experience of National Furniture house is  really wonderful
                             and excellent.</br>The garden furniture I bought from <br> this shop is fabulous and really
                             looks <br> perfect in my garden.</p>
-                        <p class="fw-bold mt-3">- John Doe</p>
-                        <div class="stars">
+                        <h4 class="fw-bold mt-3">- John Doe</h4>
+                        <div class="stars text-black">
                             ★ ★ ★ ★ ★
                         </div>
                     </div>
                 </div>
+           
+            
                 <!-- Right Card - Contact Info Card -->
                 <div class="col-md-6 d-flex flex-column justify-content-end text-end">
                     <div class="card p-4 shadow-sm border-0 text-center text-md-end" id="right-card">
-                        <h5 class="fw-bold">Visit Us At:</h5>
+                        <h4 class="fw-bold">Visit Us At:</h4>
                         <p>Furniture Market <br> Shop No. 66 & 26, Nottingham</p>
-                        <h5 class="fw-bold">Contact Us At:</h5>
+                        <h4 class="fw-bold">Contact Us At:</h4>
                         <p>+44 7754456729</p>
                     </div>
                 </div>
             </div>
-
             <!-- Image positioned with z-index -->
             <div class="furniture-image d-none d-md-block">
                 <picture>
@@ -210,6 +214,8 @@
             </div>
         </div>
     </section>
+
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/equalheights.js"></script>
     <script src="assets/js/form.js"></script>
@@ -223,6 +229,8 @@
             }, 5000);
         });
     </script>
+    
+    </main>
 </body>
 
 </html>
